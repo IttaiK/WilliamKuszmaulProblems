@@ -1,0 +1,8 @@
+Author: Ittai Kohavi
+Acknowledgments: Mr. Kuzmaul
+
+List of written methods for the Rod Cutting problem:
+    In: An int & An int[]
+    Out: An int
+    Effect: Taking an int representing the length of a rod to be cut, and an int[] with indexs      representing cut length and values at indexs representing price for a rod at this cut length (price of 0 means this size is not sold) returns the optimal way to cut the rod in order to maximize profits. This acts recursivly with saving of values.
+    
